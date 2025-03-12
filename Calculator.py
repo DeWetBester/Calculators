@@ -1,7 +1,6 @@
 import os
 
 def clear_screen():
-    """Function to clear the terminal screen."""
     if os.name == 'nt':
         os.system('cls')  
     
